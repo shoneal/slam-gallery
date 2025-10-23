@@ -1,4 +1,28 @@
 const covers = {
+  AJDybantsa: {
+    title: "AJ Dybantsa",
+    date: new Date("2025-10-21"),
+    number: "259",
+    league: "College",
+    team: ["BYU"],
+    players: ["AJ Dybantsa"],
+    photos: {
+      main: {
+        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10768689162f7fac77ea2_259-AJ.avif",
+        thumb:
+          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10768689162f7fac77ea2_259-AJ-p-500.avif",
+      },
+      gallery: [
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10b212652487d0b2093e2_AJ-Hero-3.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10687346bbac5419f1f50_PIC%20-%20AJ%20Dybantsa%20-%201X8A7125.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f106a79a7e55a20909b50c_PIC%20-%20AJ%20Dybantsa%20-%201X8A7369.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f106f22467dc687399f1c7_PIC%20-%20AJ%20Dybantsa%20-%201X8A7226.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10b6ab025a0b20467bdc4_PIC%20-%20AJ%20Dybantsa%20-%201X8A7145.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10b54d76dc7276b0df724_PIC%20-%20AJ%20Dybantsa%20-%201X8A7152.avif",
+        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f1071ace4c8f7037e83934_PIC%20-%20AJ%20Dybantsa%20-%20_C1A9978.avif",
+      ],
+    },
+  },
   JalenWilliams: {
     title: "Jalen Williams",
     date: new Date("2025-09-17"),
