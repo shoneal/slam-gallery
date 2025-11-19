@@ -1,4 +1,13 @@
 const covers = {
+  JasonCroweJr: {
+    title: "Jason Crowe Jr.",
+    date: new Date("2025-11-17"),
+    number: "006",
+    league: "College",
+    team: ["Inglewood"],
+    players: ["Jason Crowe Jr"],
+    photos: 8,
+  },
   AJDybantsa: {
     title: "AJ Dybantsa",
     date: new Date("2025-10-21"),
@@ -6,22 +15,7 @@ const covers = {
     league: "College",
     team: ["BYU"],
     players: ["AJ Dybantsa"],
-    photos: {
-      main: {
-        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10768689162f7fac77ea2_259-AJ.avif",
-        thumb:
-          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10768689162f7fac77ea2_259-AJ-p-500.avif",
-      },
-      gallery: [
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10b212652487d0b2093e2_AJ-Hero-3.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10687346bbac5419f1f50_PIC%20-%20AJ%20Dybantsa%20-%201X8A7125.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f106a79a7e55a20909b50c_PIC%20-%20AJ%20Dybantsa%20-%201X8A7369.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f106f22467dc687399f1c7_PIC%20-%20AJ%20Dybantsa%20-%201X8A7226.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10b6ab025a0b20467bdc4_PIC%20-%20AJ%20Dybantsa%20-%201X8A7145.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f10b54d76dc7276b0df724_PIC%20-%20AJ%20Dybantsa%20-%201X8A7152.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68f1071ace4c8f7037e83934_PIC%20-%20AJ%20Dybantsa%20-%20_C1A9978.avif",
-      ],
-    },
+    photos: 7,
   },
   JalenWilliams: {
     title: "Jalen Williams",
@@ -30,23 +24,7 @@ const covers = {
     league: "NBA",
     team: ["Oklahoma City Thunder"],
     players: ["Jalen Williams"],
-    photos: {
-      main: {
-        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca928e40397736b149c7b2_SLAM-258-JALEN-WILLIAMS-COVER-1-scaled.jpg",
-        thumb:
-          "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca928e40397736b149c7b2_SLAM-258-JALEN-WILLIAMS-COVER-1-scaled-p-500.avif",
-      },
-      gallery: [
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca96bb8c6b5e4df8b1fd66_Slam_Jalen%20Williams_%20429.jpg",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca995d150c88395c483568_64.jpg",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99672155f1a5d04bff6f_97.jpg",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca99831c5fe3d29e640a6e_550.jpg",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a7d8c6b5e4df8b38fd3_376.jpg",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9a5c7c9198be34758121_364.jpg",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ca9d5c3146a060d4c21701_198%20(1).jpg",
-        "https://sun9-20.userapi.com/s/v1/ig2/FbMQXXF-CqgnTuN2CTEEPAW2yW7kuuAqMDXHS9jEd-1tbWtIYO0QNjA7F_XXNeeO3QWG5hhyOooCCSgA9tFDaNE3.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
-      ],
-    },
+    photos: 8,
   },
   CooperFlagg: {
     title: "Cooper Flagg",
@@ -55,22 +33,7 @@ const covers = {
     league: "NBA",
     team: ["Dallas Mavericks"],
     players: ["Cooper Flagg"],
-    photos: {
-      main: {
-        full: "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada4d00c6f84c1d0b8dea4_SLAM-258-COOPER-scaled.avif",
-        thumb:
-          "https://cdn.prod.website-files.com/60c7deb2c60aa9181c632225/68adc462958d615bd50bea25_SLAM-258-COOPER-scaled-p-500.jpg",
-      },
-      gallery: [
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada32c1c3be164da5cc813_Flagg-BG2-scaled.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5d1cd1cce8916b4bbb2_slam%20258%20cooper%20flagg4.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada5da32c909752298954b_slam%20258%20cooper%20flagg3.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6af3aa37359d7bd6af7_slam%20258%20cooper%20flagg6.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada1d9b5cbcd93e1ba9abe_Flagg-BG-scaled.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68adab18c2b51d5e48ffdadf_slam%20258%20cooper%20flagg8.avif",
-        "https://cdn.prod.website-files.com/609455ae20bc26057e9ff36f/68ada6fbca8e93c67da482d8_slam%20258%20cooper%20flagg10.avif",
-      ],
-    },
+    photos: 7,
   },
   JaMorant: {
     title: "Ja Morant",
@@ -1927,30 +1890,33 @@ const covers = {
   },
 }; // Главная константа
 
+const basicLink = "https://shoneal.github.io/slam-gallery/images/covers/";
+
 // Всё, что касается шапки с изображениями
-const randomImages = Object.keys(covers)
-  .map((key) => covers[key].photos.main)
-  .sort(() => 0.5 - Math.random())
+const randomCovers = Object.keys(covers)
+  .sort(() => Math.random() - 0.5)
   .slice(0, 20); // 20 случайных обложек
 const header = document.querySelector(".header");
 const animationList = document.querySelector(".animation_list");
-const getImageUrl = (image) =>
-  window.innerWidth < 767 ? image.thumb || image.full : image.full;
+const loadImageWithFallback = (element, name) => {
+  const base = `${basicLink}${name}/`;
+  element.src = base + "thumb.jpg";
+  element.onload = () => (element.style.opacity = "1");
+  element.onerror = () => (element.src = base + "full.jpg");
+};
 const addRandomImages = () => {
   let loaded = 0;
-  const total = randomImages.length;
-  randomImages.forEach((image, index) => {
+  const total = randomCovers.length;
+  randomCovers.forEach((image, index) => {
     const item = document.createElement("div");
     item.classList.add("animation_item");
     item.style.transform = `rotate(${
       index * 18
     }deg) translateY(calc(-1 * 970px))`;
     const img = document.createElement("img");
-    img.src = getImageUrl(image);
     img.alt = "SLAM Cover";
-    img.addEventListener("load", () => {
+    loadImageWithFallback(img, image, () => {
       loaded++;
-      img.style.opacity = "1";
       if (loaded === total) animationList.style.opacity = "1";
     });
     item.appendChild(img);
@@ -2104,7 +2070,7 @@ const uniqueLeagues = Object.values(covers)
     const isOtherB = b === "Other";
     if (isOtherA && !isOtherB) return 1;
     if (!isOtherA && isOtherB) return -1;
-    return (priority[a] || 2) - (priority[b] || 2);
+    return (priority[a] || 3) - (priority[b] || 3);
   }); // Вывод лиг
 function getTopPlayers(covers, topCount = 3) {
   const playerCount = Object.values(covers).reduce((acc, cover) => {
@@ -2218,8 +2184,8 @@ function filterCovers(
 ) {
   const lowerSearch = searchQuery.toLowerCase();
 
-  return Object.values(covers)
-    .filter((cover) => {
+  return Object.entries(covers)
+    .filter(([key, cover]) => {
       const lMatch =
         !selectedLeagues.length || selectedLeagues.includes(cover.league);
       const tMatch =
@@ -2235,7 +2201,11 @@ function filterCovers(
 
       return lMatch && tMatch && pMatch && sMatch;
     })
-    .sort((a, b) => b.date - a.date);
+    .sort(([keyA, coverA], [keyB, coverB]) => coverB.date - coverA.date)
+    .map(([key, cover]) => ({
+      ...cover,
+      key,
+    }));
 } // Фильтрация обложек
 const template = document.querySelector("#cover-template");
 const container = document.querySelector(".covers_list");
@@ -2247,14 +2217,11 @@ function renderCover(item) {
   const number = clone.querySelector(".cover_number");
   const title = clone.querySelector(".cover_title");
 
-  img.src = getImageUrl(item.photos.main);
   img.alt =
     item.players.length === 1
       ? `На обложке представлен ${item.players[0]}`
       : `На обложке представлены ${item.players.join(", ")}`;
-  img.addEventListener("load", () => {
-    img.style.opacity = "1";
-  });
+  loadImageWithFallback(img, item.key);
 
   number.textContent = item.number || "";
   title.textContent = item.title;
@@ -2383,7 +2350,16 @@ function handlePopup(item) {
   header.appendChild(h1);
   gallery.appendChild(header);
 
-  currentPhotosArray = [item.photos.main.full, ...item.photos.gallery];
+  const buildPhotosArray = (item) => {
+    const base = `${basicLink}${item.key}/`;
+    const total = 1 + item.photos;
+
+    return Array.from(
+      { length: total },
+      (_, i) => base + (i === 0 ? "full.jpg" : `${i}.jpg`)
+    );
+  };
+  const currentPhotosArray = buildPhotosArray(item);
 
   const photoElements = currentPhotosArray.map((photo, index) => {
     const photoDiv = document.createElement("div");
