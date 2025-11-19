@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-  <g id="Group_890" data-name="Group 890" transform="translate(-1353 -447)">
-    <g id="Group_889" data-name="Group 889" transform="translate(-355.972 239.498)">
-      <line id="Line_107" data-name="Line 107" x2="16.465" y2="16.465" transform="translate(1724.507 223.502)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
-      <line id="Line_108" data-name="Line 108" x1="16.465" y2="16.465" transform="translate(1724.507 223.502)" fill="none" stroke="#231f20" stroke-miterlimit="10" stroke-width="2"/>
-    </g>
-    <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(1353 447)" fill="none" stroke="#e3e3e3" stroke-width="1">
-      <circle cx="24" cy="24" r="24" stroke="none"/>
-      <circle cx="24" cy="24" r="23.5" fill="none"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" data-name="Group 890"><g stroke="#231f20" stroke-miterlimit="10" stroke-width="2" data-name="Group 889"><path d="M15.535 16 32 32.465" data-name="Line 107"/><path d="M32 16 15.535 32.465" data-name="Line 108"/></g><g stroke="#e3e3e3" data-name="Ellipse 13"><circle cx="24" cy="24" r="24" stroke="none"/><circle cx="24" cy="24" r="23.5"/></g></g></svg>
