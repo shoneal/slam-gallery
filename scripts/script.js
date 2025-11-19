@@ -3,7 +3,7 @@ const covers = {
     title: "Jason Crowe Jr.",
     date: new Date("2025-11-17"),
     number: "006",
-    league: "High school",
+    league: "High School",
     team: ["Inglewood"],
     players: ["Jason Crowe Jr."],
     photos: 8,
