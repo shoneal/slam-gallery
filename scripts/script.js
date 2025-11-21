@@ -841,10 +841,6 @@ const getImageExtension = (itemKey) => {
   const extensionMap = { LaMeloBall: "png" };
   return extensionMap[itemKey] || "jpg";
 };
-const loadImageWithFallback = (element, name) => {
-  element.src = `${basicLink}${name}/thumb.${getImageExtension(name)}`;
-  element.onload = () => (element.style.opacity = "1");
-};
 const addRandomImages = () => {
   let loaded = 0;
   const total = randomCovers.length;
@@ -856,8 +852,12 @@ const addRandomImages = () => {
     }deg) translateY(calc(-1 * 970px))`;
     const img = document.createElement("img");
     img.alt = "SLAM Cover";
-    loaded++;
-    if (loaded === total) animationList.style.opacity = "1";
+    img.src = `${basicLink}${image}/thumb.${getImageExtension(image)}`;
+    img.addEventListener("load", () => {
+      img.style.opacity = "1";
+      loaded++;
+      if (loaded === total) animationList.style.opacity = "1";
+    });
     item.appendChild(img);
     animationList.appendChild(item);
   });
@@ -1154,7 +1154,8 @@ function renderCover(item) {
     item.players.length === 1
       ? `На обложке представлен ${item.players[0]}`
       : `На обложке представлены ${item.players.join(", ")}`;
-  loadImageWithFallback(img, item.key);
+  img.src = `${basicLink}${item.key}/thumb.${getImageExtension(item.key)}`;
+  img.onload = () => (img.style.opacity = "1");
 
   number.textContent = item.number || "";
   title.textContent = item.title;

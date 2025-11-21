@@ -167,7 +167,7 @@ body {
 
 .navigation {
   position: sticky;
-  top: 0;
+  top: -1px;
   display: flex;
   gap: 2rem;
   padding: 24px;
