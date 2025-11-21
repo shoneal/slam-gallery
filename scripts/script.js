@@ -1,4 +1,13 @@
 const covers = {
+  CalebWilson: {
+    title: "Caleb Wilson",
+    date: new Date("2025-11-19"),
+    number: "014",
+    league: "College",
+    team: ["North Carolina"],
+    players: ["Caleb Wilson"],
+    photos: 6,
+  },
   JasonCroweJr: {
     title: "Jason Crowe Jr.",
     date: new Date("2025-11-17"),
@@ -267,19 +276,7 @@ const covers = {
     league: "College",
     team: ["South Carolina"],
     players: ["Dawn Staley"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/05/SLAM-250-DAWN-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/05/SLAM-250-DAWN-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/05/Dawn-1920x1280-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/05/dawn6.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/05/dawn24.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/05/dawn3.jpg",
-      ],
-    },
+    photos: 4,
   },
   StephonCastleDonovanClingan: {
     title: "Stephon Castle & Donovan Clingan",
@@ -288,21 +285,7 @@ const covers = {
     league: "College",
     team: ["UConn"],
     players: ["Stephon Castle", "Donovan Clingan"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/06/SLAM-250-UCONN-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/06/SLAM-250-UCONN-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/06/uconn3.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/06/uconn14.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/06/uconn15.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/06/uconn11.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/06/uconn9-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/06/uconn4.jpg",
-      ],
-    },
+    photos: 6,
   },
   JimmyButler: {
     title: "Jimmy Butler",
@@ -311,21 +294,7 @@ const covers = {
     league: "NBA",
     team: ["Miami Heat"],
     players: ["Jimmy Butler"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-JIMMY-BUTLER-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-JIMMY-BUTLER-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/04/butler21-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/butler17.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/butler24.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/butler26.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/butler10.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/butler12.jpg",
-      ],
-    },
+    photos: 6,
   },
   NewYorkKnicks: {
     title: "New York Knicks",
@@ -334,21 +303,7 @@ const covers = {
     league: "NBA",
     team: ["New York Knicks"],
     players: ["Jalen Brunson", "Josh Hart", "Donte DiVincenzo"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-KNICKS-1-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/04/SLAM-249-KNICKS-1-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/04/KNICKS-WEB-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/jh4-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/jh2-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/dd1-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/nyk6-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/jb3-1.jpg",
-      ],
-    },
+    photos: 6,
   },
   CaitlinClark2: {
     title: "Caitlin Clark",
@@ -357,23 +312,7 @@ const covers = {
     league: "College",
     team: ["Iowa"],
     players: ["Caitlin Clark"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/03/SLAM-249-CAITLIN-CLARK-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/03/SLAM-249-CAITLIN-CLARK-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/03/CC1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/03/trio.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/03/17.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/03/14.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/03/11.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/03/10.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/03/1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/03/6.jpg",
-      ],
-    },
+    photos: 8,
   },
   ChetHolmgren: {
     title: "Chet Holmgren",
@@ -382,19 +321,7 @@ const covers = {
     league: "NBA",
     team: ["Oklahoma City Thunder"],
     players: ["Chet Holmgren"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-CHET-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-CHET-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/02/Chat-5.png",
-        "https://slamonline.com/wp-content/uploads/2024/02/chet12.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/chet4-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/chet8.jpg",
-      ],
-    },
+    photos: 4,
   },
   JujuWatkins: {
     title: "Juju Watkins",
@@ -403,24 +330,7 @@ const covers = {
     league: "College",
     team: ["USC"],
     players: ["Juju Watkins"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-JUJU-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/02/SLAM-248-JUJU-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/02/JUJU-WEB-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-7.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-11.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-14.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-15.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-16.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/02/WSLAM-Watermarking-18.jpg",
-      ],
-    },
+    photos: 9,
   },
   TyreseMaxey: {
     title: "Tyrese Maxey",
@@ -429,23 +339,7 @@ const covers = {
     league: "NBA",
     team: ["Philadelphia 76ers"],
     players: ["Tyrese Maxey"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2024/01/SLAM-248-MAXEY-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2024/01/SLAM-248-MAXEY-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/01/WEB-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/01/WATERMARK-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-8-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-9.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-19.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/01/tyrese-22.jpg",
-      ],
-    },
+    photos: 8,
   },
   CooperFlagg2: {
     title: "Cooper Flagg",
@@ -454,20 +348,7 @@ const covers = {
     league: "College",
     team: ["Duke"],
     players: ["Cooper Flagg"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/10/SLAM-247-COOPER-FLAGG-V2-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/10/SLAM-247-COOPER-FLAGG-V2-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-7.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-3-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/247-Cooper-Flagg-4.jpg",
-      ],
-    },
+    photos: 5,
   },
   OklahomaCityThunder: {
     title: "Oklahoma City Thunder",
@@ -482,30 +363,7 @@ const covers = {
       "Josh Giddey",
       "Jalen Williams",
     ],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/10/SLM-247-OKC-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/10/SLM-247-OKC-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/10/19-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/7-7.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/6-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/7-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/2-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/1-9.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/3-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/12-6.jpg",
-        "https://sun9-33.userapi.com/s/v1/ig2/kya0QudIfmLDufVub5SQlEYUWmi0zIFJ9rHkYz1zq4SdcVRuFR_7HaR2uXzq78n6pyz-rX3MyPyLHzx-6L-gZ-W7.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
-        "https://sun9-30.userapi.com/s/v1/ig2/dWjZR5Sy95dbX8IWQ2y6scXljWLYItZTXYlrA_9n29lngJ1gbhC4_nm9a4xENTvIsuMolHPip9ZICFfT4eaWjnPA.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350&from=bu&cs=1080x0",
-        "https://slamonline.com/wp-content/uploads/2023/10/3-9.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/3-7.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/5-9.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/2-9.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/10/2-7.jpg",
-      ],
-    },
+    photos: 15,
   },
   PaulGeorge: {
     title: "Paul George",
@@ -514,22 +372,7 @@ const covers = {
     league: "NBA",
     team: ["Los Angeles Clippers"],
     players: ["Paul George"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-PAUL-GEORGE-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-PAUL-GEORGE-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/09/6-6.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/14-5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/21-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/9-5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/4-9-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/1-7-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/12-5.jpg",
-      ],
-    },
+    photos: 7,
   },
   NewYorkLiberty: {
     title: "New York Liberty",
@@ -544,28 +387,7 @@ const covers = {
       "Betnijah Laney",
       "Courtney Vandersloot",
     ],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-LIBERTY.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/09/SLAM-246-LIBERTY-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/09/WEB-STORY.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-26-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-94-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/film_photos_10.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-82-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_7.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_4.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-62-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-57-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-64-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/20230823-SLAM-247-Liberty-Watermarked-69-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/09/film_photo_1.jpg",
-      ],
-    },
+    photos: 13,
   },
   SLAMKICKSExclusive: {
     title: "SLAMKICKS Exclusive",
@@ -573,23 +395,7 @@ const covers = {
     league: "Other",
     team: ["New Orleans Pelicans", "Boston Celtics", "Dallas Mavericks"],
     players: ["Zion Williamson", "Jayson Tatum", "Luka Dončić"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/08/KICKS-26-JORDAN-BRAND-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/08/KICKS-26-JORDAN-BRAND-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/08/zw-12.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/jt.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/zw-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/zw-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/zw-10.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/ld-5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/jt-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/jt-4.jpg",
-      ],
-    },
+    photos: 8,
   },
   PJTucker: {
     title: "P.J. Tucker",
@@ -597,22 +403,7 @@ const covers = {
     league: "Other",
     team: ["Philadelphia 76ers"],
     players: ["P.J. Tucker"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/08/KICKS-26-PJ-TUCKER-FINAL-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/08/KICKS-26-PJ-TUCKER-FINAL-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/08/pj-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/pj-5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/pj-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/pj-12.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/pj-14.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/pj-10.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/08/pj-9.jpg",
-      ],
-    },
+    photos: 7,
   },
   BradleyBeal: {
     title: "Bradley Beal",
@@ -621,20 +412,7 @@ const covers = {
     league: "NBA",
     team: ["Phoenix Suns"],
     players: ["Bradley Beal"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-BEAL-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-BEAL-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/07/17-4.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/8-5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/13-4.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/2-6.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/16-2.jpg",
-      ],
-    },
+    photos: 5,
   },
   TyreseHaliburton: {
     title: "Tyrese Haliburton",
@@ -643,24 +421,7 @@ const covers = {
     league: "NBA",
     team: ["Indiana Pacers"],
     players: ["Tyrese Haliburton"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-HALIBURTON-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/07/SLAM-245-HALIBURTON-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/07/Tyty-1.png",
-        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-10-1-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-29-1-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-50-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-51-scaled-1.jpg",
-        "https://sun9-70.userapi.com/s/v1/ig2/wJwwo23FqZ2s0XJ05ZCPTny2ky_DyeUTZ4mB78XJ9t9eLPHvQ_DywN9cBTJ2d2JtIB-OcHd-icTD3q8AdCE-LZsl.jpg?quality=95&as=32x40,48x60,72x90,108x135,160x200,240x300,360x450,480x600,540x675,640x800,720x900,1080x1350,1280x1600,1440x1800,2048x2560&from=bu&cs=2048x0",
-        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-48-1-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-13-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/07/20220628-Tyrese-Hailburton-SLAM-245-4X5-30-scaled-1.jpg",
-      ],
-    },
+    photos: 9,
   },
   PaoloBanchero: {
     title: "Paolo Banchero",
@@ -669,23 +430,7 @@ const covers = {
     league: "NBA",
     team: ["Orlando Magic"],
     players: ["Paolo Banchero"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-PAOLO-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-PAOLO-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/05/14-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/5-8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/40-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/24-2-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/28-3-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/30.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/48-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/49.jpg",
-      ],
-    },
+    photos: 8,
   },
   RhyneHoward: {
     title: "Rhyne Howard",
@@ -694,21 +439,7 @@ const covers = {
     league: "WNBA",
     team: ["Atlanta Dream"],
     players: ["Rhyne Howard"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-RHYNE-HOWARD-scaled.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-RHYNE-HOWARD-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/05/36.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/4-5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/26-4.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/6-4.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/40.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/43-2.jpg",
-      ],
-    },
+    photos: 6,
   },
   ScootHenderson: {
     title: "Scoot Henderson",
@@ -717,25 +448,7 @@ const covers = {
     league: "NBA",
     team: ["Portland Trail Blazers"],
     players: ["Scoot Henderson"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-SCOOT-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/05/SLAM-244-SCOOT-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/05/4.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/12.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/13-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/22.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/21.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/15.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/7.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/10.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/05/3-6.jpg",
-      ],
-    },
+    photos: 10,
   },
   AngelReeseFlaujaeJohnson: {
     title: "Angel Reese & Flau'jae Johnson",
@@ -744,24 +457,7 @@ const covers = {
     league: "College",
     team: ["LSU"],
     players: ["Angel Reese", "Flau'jae Johnson"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/03/SLM-243-LSU-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/03/SLM-243-LSU-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/03/LSU-4-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/LSU-17-2-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/LSU-9-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/LSU-11-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/LSU-23.jpg",
-        "https://slamonline.com/wp-content/uploads/2024/04/LSU-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/LSU-3-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/70FF87A0-B66D-4B18-A012-D9E0E103E47C.jpeg",
-        "https://slamonline.com/wp-content/uploads/2023/03/LSU-15.jpg",
-      ],
-    },
+    photos: 9,
   },
   JamesHarden: {
     title: "James Harden",
@@ -770,22 +466,7 @@ const covers = {
     league: "NBA",
     team: ["Philadelphia 76ers"],
     players: ["James Harden"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/04/SLAM-243-HARDEN-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/04/SLAM-243-HARDEN-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/04/28-2-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/04/23.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/04/3-5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/04/26-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/04/5-5-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/04/4-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/04/29.jpg",
-      ],
-    },
+    photos: 7,
   },
   LauriMarkkanenJordanClarkson: {
     title: "Lauri Markkanen & Jordan Clarkson",
@@ -794,22 +475,7 @@ const covers = {
     league: "NBA",
     team: ["Utah Jazz"],
     players: ["Lauri Markkanen", "Jordan Clarkson"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-JAZZ-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-JAZZ-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/03/8-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/24-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/26-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/3-4.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/17-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/12-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/20-1.jpg",
-      ],
-    },
+    photos: 7,
   },
   JalenBrunson: {
     title: "Jalen Brunson",
@@ -818,19 +484,7 @@ const covers = {
     league: "NBA",
     team: ["New York Knicks"],
     players: ["Jalen Brunson"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-BRUNSON-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/03/SLAM-243-BRUNSON-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/03/15-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/9-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/7-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/03/12-2.jpg",
-      ],
-    },
+    photos: 4,
   },
   NewOrleansPelicans: {
     title: "New Orleans Pelicans",
@@ -839,19 +493,7 @@ const covers = {
     league: "NBA",
     team: ["New Orleans Pelicans"],
     players: ["Zion Williamson", "CJ McCollum", "Brandon Ingram"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/02/SLAM-242-PELICANS-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/02/SLAM-242-PELICANS-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/02/1-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/02/18.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/02/5-3.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/02/16.jpg",
-      ],
-    },
+    photos: 4,
   },
   JaylenBrown: {
     title: "Jaylen Brown",
@@ -860,19 +502,7 @@ const covers = {
     league: "NBA",
     team: ["Boston Celtics"],
     players: ["Jaylen Brown"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-JAYLEN-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-JAYLEN-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/01/2-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/01/7-2.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/01/4-2-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/01/5-2.jpg",
-      ],
-    },
+    photos: 4,
   },
   DeAaronFoxDomantasSabonis: {
     title: "De'Aaron Fox & Domantas Sabonis",
@@ -881,20 +511,7 @@ const covers = {
     league: "NBA",
     team: ["Sacramento Kings"],
     players: ["De'Aaron Fox", "Domantas Sabonis"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-KINGS-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2023/01/SLAM-242-KINGS-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2023/01/13.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/01/5.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/01/7.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/01/8.jpg",
-        "https://slamonline.com/wp-content/uploads/2023/01/17.jpg",
-      ],
-    },
+    photos: 5,
   },
   TraeYoungDejounteMurray: {
     title: "Trae Young & Dejounte Murray",
@@ -903,20 +520,7 @@ const covers = {
     league: "NBA",
     team: ["Atlanta Hawks"],
     players: ["Trae Young", "Dejounte Murray"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/12/SLM-241-HAWKS-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/12/SLM-241-HAWKS-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/12/1920x1280_HAWKS.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/12.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/3.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/2.jpg",
-      ],
-    },
+    photos: 5,
   },
   JaysonTatum: {
     title: "Jayson Tatum",
@@ -925,20 +529,7 @@ const covers = {
     league: "NBA",
     team: ["Boston Celtics"],
     players: ["Jayson Tatum"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/12/SLAM-241-TATUM-1-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/12/SLAM-241-TATUM-1-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/12/tatum_3.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/tatum_1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/tatum_2.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/Tatum-7.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/12/Tatum-4.jpg",
-      ],
-    },
+    photos: 5,
   },
   KawhiLeonardPaulGeorge: {
     title: "Kawhi Leonard & Paul George",
@@ -947,18 +538,7 @@ const covers = {
     league: "NBA",
     team: ["Los Angeles Clippers"],
     players: ["Kawhi Leonard", "Paul George"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-CLIPPERS-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-CLIPPERS-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/10/Clippers_1280px_02.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/10/240_Clippers_05.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/10/240_Clippers_01.jpg",
-      ],
-    },
+    photos: 3,
   },
   VictorWembanyama: {
     title: "Victor Wembanyama",
@@ -967,21 +547,7 @@ const covers = {
     league: "Europe",
     team: ["Metropolitans 92"],
     players: ["Victor Wembanyama"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-VICTOR-resized-2.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/10/SLM-240-VICTOR-resized-2-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_SideShot_02-1.png",
-        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_17.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_05.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_02.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_04.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/10/VictorW_Watermarked_01.jpg",
-      ],
-    },
+    photos: 6,
   },
   ScottieBarnes: {
     title: "Scottie Barnes",
@@ -990,19 +556,7 @@ const covers = {
     league: "NBA",
     team: ["Toronto Raptors"],
     players: ["Scottie Barnes"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/07/SLAM-239-BARNES-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/07/SLAM-239-BARNES-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_4.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_3.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_2.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/07/scottie_watermarked_final_1.jpg",
-      ],
-    },
+    photos: 4,
   },
   CadeCunningham2: {
     title: "Cade Cunningham",
@@ -1011,20 +565,7 @@ const covers = {
     league: "NBA",
     team: ["Detroit Pistons"],
     players: ["Cade Cunningham"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/05/SLM-238-CADE-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/05/SLM-238-CADE-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/05/cade-clear.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0137-scaled-1-1638x2048.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0150-scaled-1-1638x2048.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0125-scaled-1-1638x2048.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/05/Untitled-Capture0293-4-1-scaled-1-1638x2048.jpg",
-      ],
-    },
+    photos: 5,
   },
   MemphisGrizzlies: {
     title: "Memphis Grizzlies",
@@ -1038,20 +579,7 @@ const covers = {
       "Jaren Jackson Jr.",
       "Dillon Brooks",
     ],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/04/SLAM-238-GRIZZLIES-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/04/SLAM-238-GRIZZLIES-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/04/JJJ2_SLAM238.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/04/Morant_SLAM238.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/04/Bane2_SLAM238.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/04/Brooks2_SLAM238.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/04/Team_SLAM238.jpg",
-      ],
-    },
+    photos: 5,
   },
   SouthCarolinaGamecocks: {
     title: "South Carolina Gamecocks",
@@ -1065,20 +593,7 @@ const covers = {
       "Destanni Henderson",
       "Aliyah Boston",
     ],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/03/SLM-237-SOUTH-CAROLINA-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/03/SLM-237-SOUTH-CAROLINA-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/03/2022-SOUTH-CAROLINA-X-SLAM-COVER-SHOOT1733-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/03/20220208-SLAM-STALEY-JL-19-WATERMARKED-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/03/2022-SOUTH-CAROLINA-X-SLAM-COVER-SHOOT1739-WATERMARKED-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/03/2022-SOUTH-CAROLINA-X-SLAM-COVER-SHOOT1747-WATERMARKED-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/03/20220208-SLAM-STALEY-JL-62-WATERMARKED-scaled-1.jpg",
-      ],
-    },
+    photos: 5,
   },
   LaMeloBall: {
     title: "LaMelo Ball",
@@ -1096,18 +611,7 @@ const covers = {
     league: "NBA",
     team: ["Chicago Bulls"],
     players: ["DeMar DeRozan", "Zach LaVine"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/02/SLM-236-BULLS-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/02/SLM-236-BULLS-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/02/1080x1350-Watermark-Social-09.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/02/1080x1350-Watermark-Social-04.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/02/1080x1350-Watermark-Social-03.jpg",
-      ],
-    },
+    photos: 3,
   },
   KahleahCopper: {
     title: "Kahleah Copper",
@@ -1116,20 +620,7 @@ const covers = {
     league: "WNBA",
     team: ["Chicago Sky"],
     players: ["Kahleah Copper"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2022/01/SLM-236-KALEAH-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2022/01/SLM-236-KALEAH-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2022/01/MGL1901-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/01/MGL1772-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/01/MGL1995-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/01/MGL2034-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2022/01/MGL2064-scaled-1.jpg",
-      ],
-    },
+    photos: 5,
   },
   DonovanMitchell: {
     title: "Donovan Mitchell",
@@ -1138,20 +629,7 @@ const covers = {
     league: "NBA",
     team: ["Utah Jazz"],
     players: ["Donovan Mitchell"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2021/12/SLM-235-DONOVAN-resized.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2021/12/SLM-235-DONOVAN-resized-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2021/12/Spida-01.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/12/Spida-02.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/12/Spida-04.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/12/Spida-05.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/12/SLM-235-DONOVAN-NFT-resized.jpg",
-      ],
-    },
+    photos: 5,
   },
   AzziFuddPaigeBueckers: {
     title: "Azzi Fudd & Paige Bueckers",
@@ -1160,20 +638,7 @@ const covers = {
     league: "College",
     team: ["UConn"],
     players: ["Azzi Fudd", "Paige Bueckers"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2021/11/SLMP-220100-UCONN-COVER-SOCIAL-scaled-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2021/11/SLMP-220100-UCONN-COVER-SOCIAL-scaled-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2021/11/paigeazziwebsite.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/11/05.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/11/19.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/11/10.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/11/02.jpg",
-      ],
-    },
+    photos: 5,
   },
   CandaceParker: {
     title: "Candace Parker",
@@ -1182,19 +647,7 @@ const covers = {
     league: "WNBA",
     team: ["Chicago Sky"],
     players: ["Candace Parker"],
-    photos: {
-      main: {
-        full: "https://slamonline.com/wp-content/uploads/2021/07/SLM-233-CANDACE-resized-1.jpg",
-        thumb:
-          "https://slamonline.com/wp-content/uploads/2021/07/SLM-233-CANDACE-resized-1-600x750.jpg",
-      },
-      gallery: [
-        "https://slamonline.com/wp-content/uploads/2024/04/wslam-2021-CANDACE-PARKER-SHOOT-x-SLAM1174-scaled.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/07/2021-CANDACE-PARKER-SHOOT-x-SLAM1255-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/07/2021-CANDACE-PARKER-SHOOT-x-SLAM1099-scaled-1.jpg",
-        "https://slamonline.com/wp-content/uploads/2021/07/2021-CANDACE-PARKER-SHOOT-x-SLAM1217-scaled-1.jpg",
-      ],
-    },
+    photos: 4,
   },
   WNBARevolution: {
     title: "WNBA Revolution",
@@ -1208,6 +661,15 @@ const covers = {
       "Sue Bird",
       "Diana Taurasi",
     ],
+    photos: 5,
+  },
+  JamalMurray: {
+    title: "Jamal Murray",
+    date: new Date("2020-12-23"),
+    number: 230,
+    league: "NBA",
+    team: ["Denver Nuggets"],
+    players: ["Jamal Murray"],
     photos: 5,
   },
   ZionWilliamson: {
@@ -1380,11 +842,8 @@ const getImageExtension = (itemKey) => {
   return extensionMap[itemKey] || "jpg";
 };
 const loadImageWithFallback = (element, name) => {
-  const base = `${basicLink}${name}/`;
-  const ext = getImageExtension(name);
-  element.src = base + `thumb.${ext}`;
+  element.src = `${basicLink}${name}/thumb.${getImageExtension(name)}`;
   element.onload = () => (element.style.opacity = "1");
-  element.onerror = () => (element.src = base + `full.${ext}`);
 };
 const addRandomImages = () => {
   let loaded = 0;
