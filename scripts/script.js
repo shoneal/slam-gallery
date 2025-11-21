@@ -856,10 +856,8 @@ const addRandomImages = () => {
     }deg) translateY(calc(-1 * 970px))`;
     const img = document.createElement("img");
     img.alt = "SLAM Cover";
-    loadImageWithFallback(img, image, () => {
-      loaded++;
-      if (loaded === total) animationList.style.opacity = "1";
-    });
+    loaded++;
+    if (loaded === total) animationList.style.opacity = "1";
     item.appendChild(img);
     animationList.appendChild(item);
   });
