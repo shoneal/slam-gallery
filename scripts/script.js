@@ -1,4 +1,13 @@
 const covers = {
+  SaniyahHall: {
+    title: "Saniyah Hall",
+    date: new Date("2025-11-21"),
+    number: "007",
+    league: "High School",
+    team: ["SPIRE"],
+    players: ["Saniyah Hall"],
+    photos: 7,
+  },
   CalebWilson: {
     title: "Caleb Wilson",
     date: new Date("2025-11-19"),
