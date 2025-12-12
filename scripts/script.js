@@ -1,4 +1,13 @@
 const covers = {
+  ElliotCadeauYaxelLendeborg: {
+    title: "Elliot Cadeau & Yaxel Lendeborg",
+    date: new Date("2025-12-11"),
+    number: "015",
+    league: "College",
+    team: ["Michigan"],
+    players: ["Elliot Cadeau", "Yaxel Lendeborg"],
+    photos: 6,
+  },
   SaniyahHall: {
     title: "Saniyah Hall",
     date: new Date("2025-11-21"),
