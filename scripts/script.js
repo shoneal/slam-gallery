@@ -1,4 +1,13 @@
 const covers = {
+  JalenDuren: {
+    title: "Jalen Duren",
+    date: new Date("2026-01-13"),
+    number: 260,
+    league: "NBA",
+    team: ["Detroit Pistons"],
+    players: ["Jalen Duren"],
+    photos: 7,
+  },
   ElliotCadeauYaxelLendeborg: {
     title: "Elliot Cadeau & Yaxel Lendeborg",
     date: new Date("2025-12-11"),
@@ -849,6 +858,24 @@ const covers = {
 
 const basicLink = "https://shoneal.github.io/slam-gallery/images/covers/";
 
+const setupImageWithContainer = (img) => {
+  return new Promise((resolve) => {
+    const onLoadOrError = () => {
+      img.style.opacity = "1";
+      img.removeEventListener("load", onLoadOrError);
+      img.removeEventListener("error", onLoadOrError);
+      resolve(img);
+    };
+
+    if (img.complete) {
+      onLoadOrError();
+    } else {
+      img.addEventListener("load", onLoadOrError);
+      img.addEventListener("error", onLoadOrError);
+    }
+  });
+}; // Функция для настройки прозрачности изображения
+
 // Всё, что касается шапки с изображениями
 const randomCovers = Object.keys(covers)
   .sort(() => Math.random() - 0.5)
@@ -862,6 +889,7 @@ const getImageExtension = (itemKey) => {
 const addRandomImages = () => {
   let loaded = 0;
   const total = randomCovers.length;
+
   randomCovers.forEach((image, index) => {
     const item = document.createElement("div");
     item.classList.add("animation_item");
@@ -871,11 +899,14 @@ const addRandomImages = () => {
     const img = document.createElement("img");
     img.alt = "SLAM Cover";
     img.src = `${basicLink}${image}/thumb.${getImageExtension(image)}`;
-    img.addEventListener("load", () => {
-      img.style.opacity = "1";
+
+    setupImageWithContainer(img).then(() => {
       loaded++;
-      if (loaded === total) animationList.style.opacity = "1";
+      if (loaded === total) {
+        animationList.style.opacity = "1";
+      }
     });
+
     item.appendChild(img);
     animationList.appendChild(item);
   });
@@ -1168,12 +1199,13 @@ function renderCover(item) {
   const number = clone.querySelector(".cover_number");
   const title = clone.querySelector(".cover_title");
 
+  img.style.opacity = "0";
   img.alt =
     item.players.length === 1
       ? `На обложке представлен ${item.players[0]}`
       : `На обложке представлены ${item.players.join(", ")}`;
   img.src = `${basicLink}${item.key}/thumb.${getImageExtension(item.key)}`;
-  img.onload = () => (img.style.opacity = "1");
+  setupImageWithContainer(img);
 
   number.textContent = item.number || "";
   title.textContent = item.title;
@@ -1369,12 +1401,7 @@ function handlePopup(item) {
     photoElements.flatMap((element) => {
       const photoImgs = element.querySelectorAll("img");
       return Array.from(photoImgs).map((photoImg) => {
-        return new Promise((resolve) => {
-          photoImg.addEventListener("load", () => {
-            photoImg.style.opacity = "1";
-            resolve();
-          });
-        });
+        return setupImageWithContainer(photoImg);
       });
     })
   ).then(checkAndAddClasses);
@@ -1419,9 +1446,7 @@ function handlePopup(item) {
       img.classList.add("slide_img");
       img.src = photo;
       img.alt = "Фотосессия SLAM";
-      img.addEventListener("load", () => {
-        img.style.opacity = "1";
-      });
+      setupImageWithContainer(img);
       slide.appendChild(img);
       slideWrapper.appendChild(slide);
       slides.push(slide);

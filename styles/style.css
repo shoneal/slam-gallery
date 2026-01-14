@@ -118,7 +118,6 @@ body {
 .animation_item img {
   object-fit: contain;
   object-position: center;
-  opacity: 0;
   inline-size: 100%;
   aspect-ratio: 0.8/1;
 }
@@ -368,7 +367,6 @@ body {
   width: 100%;
   object-fit: contain;
   object-position: center;
-  opacity: 0;
   aspect-ratio: 0.8/1;
 }
 
@@ -468,10 +466,6 @@ body {
   text-transform: uppercase;
 }
 
-.gallery img {
-  opacity: 0;
-}
-
 .gallery div:nth-child(n + 3) img {
   object-fit: cover;
   object-position: center;
@@ -557,7 +551,6 @@ body {
   margin: 0 auto;
   object-fit: contain;
   object-position: center;
-  opacity: 0;
   inline-size: auto;
   max-inline-size: 100%;
   block-size: 100%;
