@@ -1350,6 +1350,7 @@ function handlePopup(item) {
     const photoImg = document.createElement("img");
     const blurImg = document.createElement("img");
 
+    photoImg.style.opacity = "0";
     photoImg.src = photo;
     photoImg.alt = "Фотосессия SLAM";
 
