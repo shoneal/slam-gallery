@@ -1,4 +1,31 @@
 const covers = {
+  ArizonaWildcats: {
+    title: "Arizona Wildcats",
+    date: new Date("2026-01-29"),
+    number: "018",
+    league: "College",
+    team: ["Arizona Wildcats"],
+    players: ["Jaden Bradley", "Koa Peat", "Brayden Burries"],
+    photos: 6,
+  },
+  TyreseMaxeyVJEdgecombe: {
+    title: "Tyrese Maxey & VJ Edgecombe",
+    date: new Date("2026-01-28"),
+    number: 260,
+    league: "NBA",
+    team: ["Philadelphia 76ers"],
+    players: ["Tyrese Maxey", "VJ Edgecombe"],
+    photos: 9,
+  },
+  IsaiahEvans: {
+    title: "Isaiah Evans",
+    date: new Date("2026-01-14"),
+    number: "017",
+    league: "College",
+    team: ["Duke"],
+    players: ["Isaiah Evans"],
+    photos: 6,
+  },
   JalenDuren: {
     title: "Jalen Duren",
     date: new Date("2026-01-13"),
@@ -916,7 +943,7 @@ let maxScroll = 0;
 let currentRotateZ = 0;
 function getCSSVariable(variableName) {
   const value = getComputedStyle(document.documentElement).getPropertyValue(
-    variableName
+    variableName,
   );
   return parseFloat(value);
 }
@@ -1083,7 +1110,7 @@ function getTopPlayers(covers, topCount = 3) {
       (a, b) =>
         b.count - a.count ||
         b.teamCount - a.teamCount ||
-        a.player.localeCompare(b.player)
+        a.player.localeCompare(b.player),
     )
     .slice(0, topCount)
     .map(({ player }) => player);
@@ -1112,16 +1139,16 @@ const leaguesContainer = createContainer("leagues");
 const teamsContainer = createContainer("teams");
 const playersContainer = createContainer("players");
 uniqueLeagues.forEach((league) =>
-  createCheckbox(league, leaguesContainer, "league")
+  createCheckbox(league, leaguesContainer, "league"),
 );
 topPlayers.forEach((player) =>
-  createCheckbox(player, playersContainer, "player")
+  createCheckbox(player, playersContainer, "player"),
 );
 function createTeamCheckboxes(selectedLeagues = []) {
   teamsContainer.innerHTML = "";
   const teams = Object.values(covers)
     .filter(
-      (c) => !selectedLeagues.length || selectedLeagues.includes(c.league)
+      (c) => !selectedLeagues.length || selectedLeagues.includes(c.league),
     )
     .flatMap((c) => c.team)
     .filter(Boolean)
@@ -1144,7 +1171,7 @@ leaguesContainer.addEventListener("change", (event) => {
   if (event.target.type === "checkbox") {
     const selectedLeagues = Array.from(
       leaguesContainer.querySelectorAll("input:checked"),
-      (checkbox) => checkbox.nextElementSibling.textContent
+      (checkbox) => checkbox.nextElementSibling.textContent,
     );
     createTeamCheckboxes(selectedLeagues);
     closePopup(navigationPopup);
@@ -1162,7 +1189,7 @@ function filterCovers(
   selectedLeagues,
   selectedTeams,
   selectedPlayers,
-  searchQuery
+  searchQuery,
 ) {
   const lowerSearch = searchQuery.toLowerCase();
 
@@ -1233,7 +1260,7 @@ function updateFilters() {
     selectedLeagues,
     selectedTeams,
     selectedPlayers,
-    searchQuery
+    searchQuery,
   );
 
   container.innerHTML = "";
@@ -1257,7 +1284,7 @@ checkboxContainers.addEventListener("change", (event) => {
 }); // Обработчик чекбоксов
 homeButton.addEventListener("click", () => {
   Array.from(
-    checkboxContainers.querySelectorAll('input[type="checkbox"]')
+    checkboxContainers.querySelectorAll('input[type="checkbox"]'),
   ).forEach((checkbox) => {
     checkbox.checked = false;
   });
@@ -1292,7 +1319,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const updatePlaceholder = () => {
     search.setAttribute(
       "placeholder",
-      window.innerWidth <= 767 ? "" : "Search by Keywords"
+      window.innerWidth <= 767 ? "" : "Search by Keywords",
     );
   };
   updatePlaceholder();
@@ -1340,7 +1367,7 @@ function handlePopup(item) {
     const ext = getImageExtension(item.key);
     return Array.from(
       { length: total },
-      (_, i) => base + (i === 0 ? `full.${ext}` : `${i}.jpg`)
+      (_, i) => base + (i === 0 ? `full.${ext}` : `${i}.jpg`),
     );
   })();
 
@@ -1404,7 +1431,7 @@ function handlePopup(item) {
       return Array.from(photoImgs).map((photoImg) => {
         return setupImageWithContainer(photoImg);
       });
-    })
+    }),
   ).then(checkAndAddClasses);
 
   openPopup(popupGallery);
@@ -1422,7 +1449,7 @@ function handlePopup(item) {
   function handleGalleryClick(event) {
     const target = event.target.closest("div");
     const index = Array.from(gallery.children).findIndex(
-      (child) => child === target
+      (child) => child === target,
     );
 
     if (index >= 0) {
