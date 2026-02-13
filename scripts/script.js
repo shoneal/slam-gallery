@@ -1,4 +1,22 @@
 const covers = {
+  SarahStrong: {
+    title: "Sarah Strong",
+    date: new Date("2026-02-12"),
+    number: "260",
+    league: "College",
+    team: ["UConn"],
+    players: ["Sarah Strong"],
+    photos: 6,
+  },
+  ScottieBarnesBrandonIngram: {
+    title: "Scottie Barnes & Brandon Ingram",
+    date: new Date("2026-02-11"),
+    number: 260,
+    league: "NBA",
+    team: ["Toronto Raptors"],
+    players: ["Scottie Barnes", "Brandon Ingram"],
+    photos: 6,
+  },
   ArizonaWildcats: {
     title: "Arizona Wildcats",
     date: new Date("2026-01-29"),
