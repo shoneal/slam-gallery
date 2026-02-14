@@ -2,28 +2,28 @@
   font-family: "span";
   src: url(./span.otf) format("opentype");
   font-weight: 400;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "span";
   src: url(./span-semibold.otf) format("opentype");
   font-weight: 500;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Bodytextlarge";
   src: url(./Bodytextlarge.ttf) format("truetype");
   font-weight: 800;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Scheherazade New";
   src: url(./ScheherazadeNew-Bold.ttf) format("truetype");
   font-weight: 700;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -32,7 +32,7 @@
     url(./europa.ttf) format("truetype"), url(./europa.otf) format("opentype"),
     url(./europa.eot) format("embedded-opentype");
   font-weight: 700;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -43,5 +43,11 @@
     url(./Univers-LT-Std-63-Bold-Extended.otf) format("opentype"),
     url(./Univers-LT-Std-63-Bold-Extended.eot) format("embedded-opentype");
   font-weight: 700;
-  font-display: swap;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url(./FontAwesome.otf) format("opentype");
+  font-display: block;
 }
