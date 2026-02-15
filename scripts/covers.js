@@ -1,4 +1,4 @@
-const covers = {
+export const covers = {
   SarahStrong: {
     title: "Sarah Strong",
     date: new Date("2026-02-12"),

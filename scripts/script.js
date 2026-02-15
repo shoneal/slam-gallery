@@ -1,3 +1,5 @@
+import { covers } from './covers.js';
+
 const basicLink = "https://shoneal.github.io/slam-gallery/images/covers/";
 
 const setupImageWithContainer = (img) => {
