@@ -1,4 +1,13 @@
 export const covers = {
+  DylanHarper: {
+    title: "Dylan Harper",
+    date: new Date("2026-11-11"),
+    number: "264",
+    league: "NBA",
+    team: ["San Antonio Spurs"],
+    players: ["Dylan Harper"],
+    photos: 7
+  },
   OGAnunoby: {
     title: "OG Anunoby",
     date: new Date("2026-07-08"),
